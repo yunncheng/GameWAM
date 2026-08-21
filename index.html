@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameWAM is a World–Action Model for native closed-loop gameplay and GUI control.">
+  <meta name="theme-color" content="#080d19">
+  <meta property="og:title" content="GameWAM — A World Action Model for Video Games">
+  <meta property="og:description" content="A world–action model for native closed-loop gameplay and GUI control.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/images/gamewam-overview.webp">
+  <title>GameWAM — A World Action Model for Video Games</title>
+  <link rel="stylesheet" href="./assets/css/styles.css?v=20260821-2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="GameWAM home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>GameWAM</span>
+      </a>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#demo">Demo</a>
+        <a href="#lasi">LASI</a>
+      </div>
+      <a class="nav-code" href="https://github.com/yunncheng/GameWAM" target="_blank" rel="noreferrer">
+        Code
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.25 11.75 11.75 4.25M6 4.25h5.75V10"/></svg>
+      </a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="shell hero-content">
+        <div class="eyebrow"><span></span> World–Action Modeling for Games</div>
+        <h1>Game<span>WAM</span></h1>
+        <p class="hero-title">A World Action Model for Video Games</p>
+        <p class="hero-lede">Joint future-video and native-action training, with action-only online control from realized visual context.</p>
+
+        <div class="authors" aria-label="Authors">
+          <span>Yuncheng Guo<sup>1</sup></span>
+          <span>Zhanqiu Zhang<sup>2,†</sup></span>
+          <span>Yiwen Guo<sup>3,†</sup></span>
+          <span>Weijia Li<sup>4,†</sup></span>
+        </div>
+        <div class="affiliations">
+          <span><sup>1</sup>Fudan University</span>
+          <span><sup>2</sup>LIGHTSPEED</span>
+          <span><sup>3</sup>Independent Researcher</span>
+          <span><sup>4</sup>Tsinghua SIGS</span>
+          <span><sup>†</sup>Corresponding authors</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/yunncheng/GameWAM" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.6a9.6 9.6 0 0 0-3 18.72c.48.1.66-.2.66-.46v-1.87c-2.68.58-3.25-1.14-3.25-1.14-.44-1.12-1.07-1.42-1.07-1.42-.88-.6.06-.59.06-.59.97.07 1.48 1 1.48 1 .86 1.47 2.26 1.05 2.81.8.09-.62.34-1.05.61-1.29-2.14-.24-4.39-1.07-4.39-4.75 0-1.05.38-1.91 1-2.58-.1-.24-.43-1.22.1-2.54 0 0 .82-.26 2.64.99A9.2 9.2 0 0 1 12 7.14a9.2 9.2 0 0 1 2.4.33c1.83-1.25 2.64-.99 2.64-.99.53 1.32.2 2.3.1 2.54.63.67 1 1.53 1 2.58 0 3.69-2.26 4.5-4.4 4.74.35.3.65.88.65 1.78v2.64c0 .26.18.57.66.47A9.6 9.6 0 0 0 12 2.6Z"/></svg>
+            View code
+          </a>
+          <a class="button button-ghost" href="#demo">Watch demo <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="video-frame hero-video" id="demo">
+          <video controls playsinline preload="metadata" poster="./assets/images/demo-poster.jpg">
+            <source src="./assets/videos/gamewam-demo.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="video-meta">
+            <span>GameWAM demo reel</span>
+            <span>Minecraft + ViZDoom · 06:18</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section overview" id="overview">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="section-index">01 — Overview</span>
+            <h2>Joint learning for <em>native control.</em></h2>
+          </div>
+          <p>Future-video prediction provides training supervision; online inference generates native actions without future-video denoising.</p>
+        </div>
+
+        <figure class="overview-figure">
+          <img src="./assets/images/gamewam-overview.webp" width="2400" height="1663" alt="Overview of GameWAM's joint world–action training, action-only online inference, block-cycle control, and evaluation on gameplay and GUI tasks.">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section method" id="method">
+      <div class="shell">
+        <div class="section-heading center-heading">
+          <span class="section-index">02 — Method</span>
+          <h2>Two training streams.<br><em>One action path online.</em></h2>
+        </div>
+
+        <figure class="paper-figure framework-figure">
+          <img src="./assets/images/gamewam-framework.webp" width="2400" height="1080" loading="lazy" alt="GameWAM architecture with parallel Video and Action DiTs for joint training, a timestep-wise interaction router, hierarchical visual history, and action-only online inference.">
+          <figcaption><strong>GameWAM architecture.</strong> Joint world–action training (left) and action-only closed-loop inference with cached realized visual context (right); future video is not generated online.</figcaption>
+        </figure>
+
+        <div class="method-grid">
+          <article>
+            <span>Architecture</span>
+            <h3>Parallel generative processes</h3>
+            <p>Parallel Video and Action DiTs use modality-specific prediction paths.</p>
+          </article>
+          <article>
+            <span>Interaction</span>
+            <h3>Mode-specific action heads</h3>
+            <p>Gameplay and GUI interaction use separate action-flow predictions and normalization statistics.</p>
+          </article>
+          <article>
+            <span>Context</span>
+            <h3>Hierarchical visual history</h3>
+            <p>Cycle-local context and compressed cross-cycle visual history span replanning cycles.</p>
+          </article>
+        </div>
+
+        <div class="schedule-block">
+          <div class="schedule-copy">
+            <div class="schedule-text">
+              <span class="mini-label">Block-cycle control</span>
+              <h3>Look further.<br>Commit less.</h3>
+              <p>Execute the first 8 actions of each 16-action plan, discard the suffix, observe the new state, and replan.</p>
+            </div>
+            <div class="horizon-pair" aria-label="Prediction and execution horizons">
+              <div><strong>16</strong><span>predict</span></div>
+              <div class="horizon-arrow" aria-hidden="true">→</div>
+              <div><strong>8</strong><span>execute</span></div>
+            </div>
+          </div>
+          <figure class="paper-figure schedule-figure">
+            <img src="./assets/images/gamewam-schedule.webp" width="2400" height="523" loading="lazy" alt="Block-cycle schedule showing overlapping prediction windows, short execution prefixes, cycle-level memory, and hierarchical history.">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section results" id="results">
+      <div class="shell">
+        <div class="section-heading split-heading light">
+          <div>
+            <span class="section-index">03 — Results</span>
+            <h2>Closed-loop evaluation in <em>Minecraft and ViZDoom.</em></h2>
+          </div>
+          <p>Closed-loop evaluation covers more than 800 MCU tasks and a four-map ViZDoom suite.</p>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card featured">
+            <span class="metric-value">50.7<span class="metric-unit">%</span></span>
+            <span class="metric-label">MCU Mini<br>Average ASR</span>
+            <span class="metric-note">10 runs per task</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">46.6<span class="metric-unit">%</span></span>
+            <span class="metric-label">MCU All<br>Average ASR</span>
+            <span class="metric-note">5 runs per task</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">12.51<span class="metric-unit"> Hz</span></span>
+            <span class="metric-label">Online execution<br>frequency</span>
+            <span class="metric-note">Mean on one NVIDIA H200</span>
+          </article>
+        </div>
+
+        <div class="mcu-comparison">
+          <div class="comparison-heading">
+            <span class="mini-label">MCU benchmark</span>
+            <h3>Embodied, GUI, and combat task comparison.</h3>
+          </div>
+          <div class="table-wrap mcu-table-wrap">
+            <table class="mcu-table">
+              <caption>Average native interaction steps over successful episodes and ASR by MCU task category</caption>
+              <thead>
+                <tr>
+                  <th scope="col" rowspan="2">Model</th>
+                  <th scope="col" rowspan="2">Game PT.</th>
+                  <th scope="colgroup" colspan="3">Embodied tasks</th>
+                  <th scope="colgroup" colspan="3">GUI tasks</th>
+                  <th scope="colgroup" colspan="3">Combat tasks</th>
+                  <th scope="colgroup" colspan="2">Average</th>
+                </tr>
+                <tr>
+                  <th scope="col">Steps ↓</th><th scope="col">Mini ↑</th><th scope="col">All ↑</th>
+                  <th scope="col">Steps ↓</th><th scope="col">Mini ↑</th><th scope="col">All ↑</th>
+                  <th scope="col">Steps ↓</th><th scope="col">Mini ↑</th><th scope="col">All ↑</th>
+                  <th scope="col">Mini ↑</th><th scope="col">All ↑</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">VPT</th><td>×</td><td>377</td><td>10.1</td><td>6.0</td><td>398</td><td>0.7</td><td>0.8</td><td>396</td><td>3.6</td><td>3.6</td><td>4.8</td><td>3.5</td></tr>
+                <tr><th scope="row">STEVE-1</th><td>×</td><td>384</td><td>8.4</td><td>8.0</td><td>391</td><td>0.0</td><td>3.2</td><td>395</td><td>4.9</td><td>3.9</td><td>4.4</td><td>5.0</td></tr>
+                <tr><th scope="row">ROCKET-1</th><td>×</td><td>392</td><td>19.2</td><td>18.9</td><td>—</td><td>0.0</td><td>0.0</td><td>320</td><td>29.8</td><td>27.9</td><td>16.3</td><td>15.6</td></tr>
+                <tr><th scope="row">JARVIS-VLA</th><td>×</td><td>305</td><td>31.0</td><td>30.0</td><td>339</td><td>25.3</td><td>25.1</td><td>352</td><td>18.3</td><td>18.5</td><td>24.9</td><td>24.5</td></tr>
+                <tr><th scope="row">LatentHA</th><td>×</td><td>363</td><td>27.3</td><td>24.4</td><td>393</td><td>3.5</td><td>3.0</td><td>371</td><td>8.2</td><td>8.5</td><td>13.0</td><td>12.0</td></tr>
+                <tr><th scope="row">MotionHA</th><td>×</td><td>336</td><td>31.6</td><td>27.4</td><td>—</td><td>0.0</td><td>0.0</td><td>392</td><td>9.1</td><td>4.3</td><td>13.6</td><td>10.6</td></tr>
+                <tr><th scope="row">GroundingHA</th><td>×</td><td>290</td><td>39.7</td><td>37.1</td><td>380</td><td>3.7</td><td>6.7</td><td>346</td><td>28.2</td><td>26.5</td><td>23.9</td><td>23.4</td></tr>
+                <tr><th scope="row">SkillHA</th><td>×</td><td>365</td><td>13.8</td><td>11.3</td><td>397</td><td>3.4</td><td>6.3</td><td>393</td><td>3.4</td><td>6.5</td><td>6.9</td><td>8.0</td></tr>
+                <tr><th scope="row">TextVLA</th><td>×</td><td>321</td><td>23.9</td><td>27.0</td><td>291</td><td>14.0</td><td>25.8</td><td>317</td><td>27.1</td><td>10.0</td><td>21.7</td><td>20.9</td></tr>
+                <tr><th scope="row">OpenHA</th><td>×</td><td>287</td><td>37.0</td><td>30.1</td><td>314</td><td>33.3</td><td>32.5</td><td>316</td><td>40.0</td><td>31.9</td><td>36.8</td><td>31.5</td></tr>
+                <tr><th scope="row">Game-TARS</th><td>✓</td><td>373</td><td>—</td><td>50.4</td><td>406</td><td>—</td><td>39.1</td><td>372</td><td>—</td><td>38.1</td><td>—</td><td>42.5</td></tr>
+                <tr class="best"><th scope="row">GameWAM</th><td>×</td><td>138</td><td>70.0</td><td>47.5</td><td>155</td><td>43.0</td><td>60.0</td><td>203</td><td>39.0</td><td>32.2</td><td>50.7</td><td>46.6</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-notes">
+            <p><strong>Steps ↓</strong> Average native interaction steps over successful episodes.</p>
+            <p><strong>ASR Mini / All ↑</strong> Average success rate using 10 / 5 runs per task.</p>
+            <p><strong>Game PT.</strong> Large-scale policy or continual pretraining on interaction data spanning many game environments; single-game training and generic foundation-model pretraining are excluded.</p>
+            <p><strong>—</strong> Not reported.</p>
+          </div>
+        </div>
+
+        <figure class="paper-figure dark-figure">
+          <img src="./assets/images/vizdoom-results.webp" width="2200" height="732" loading="lazy" alt="Average-reward comparison on four ViZDoom maps, with 50 episodes evaluated per map.">
+          <figcaption><strong>ViZDoom evaluation.</strong> Average episode reward across four maps, with 50 episodes evaluated per map.</figcaption>
+        </figure>
+
+        <div class="result-detail">
+          <div class="result-copy">
+            <span class="mini-label">Design comparison</span>
+            <h3>Modality-decoupled masking.</h3>
+            <p>In the matched comparison, overall MCU Mini/All ASR is 50.7/46.6 versus 46.3/39.6, with mean execution frequency of 12.51 versus 8.12 Hz.</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <caption>Matched comparison of modality-decoupled and joint current-block masking</caption>
+              <thead>
+                <tr><th scope="col">Mask</th><th scope="col">MCU Mini ↑</th><th scope="col">MCU All ↑</th><th scope="col">Frequency ↑</th></tr>
+              </thead>
+              <tbody>
+                <tr class="best"><th scope="row">Modality-decoupled</th><td>50.7</td><td>46.6</td><td>12.51 Hz</td></tr>
+                <tr><th scope="row">Joint video–action</th><td>46.3</td><td>39.6</td><td>8.12 Hz</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rollouts" id="rollouts">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="section-index">04 — Rollouts</span>
+            <h2>Representative closed-loop <em>rollouts.</em></h2>
+          </div>
+          <p>Selected Minecraft and ViZDoom trajectories are shown as qualitative diagnostics rather than additional benchmark results.</p>
+        </div>
+
+        <div class="rollout-grid">
+          <article class="rollout-card wide">
+            <a href="./assets/images/rollout-mine-white-bed.webp" target="_blank">
+              <img src="./assets/images/rollout-mine-white-bed.webp" width="1800" height="471" loading="lazy" alt="Minecraft rollout in which the white bed is absent from the initial view; GameWAM explores nearby, enters a structure, observes the target, and completes the mining interaction.">
+            </a>
+            <div><span>Minecraft · Representative rollout</span><h3>Mine the white bed</h3><p>The white bed is absent from the initial observation. GameWAM explores the nearby environment through native movement and viewpoint adjustment, enters a structure where the target becomes visible, and then completes the mining interaction. This example is interpreted as closed-loop local exploration rather than evidence of an explicit search algorithm or symbolic planner.</p></div>
+          </article>
+          <article class="rollout-card wide">
+            <a href="./assets/images/rollout-mine-obsidian.webp" target="_blank">
+              <img src="./assets/images/rollout-mine-obsidian.webp" width="1800" height="471" loading="lazy" alt="Minecraft rollout showing GameWAM aligning with an obsidian block and maintaining mining across successive replanning steps until it breaks.">
+            </a>
+            <div><span>Minecraft · Representative rollout</span><h3>Collect obsidian for crafting</h3><p>Obtaining obsidian requires a sustained mining action rather than a brief click. After approaching and aligning with the target block, GameWAM maintains the required behavior across successive replanning steps until the block breaks. The sequence illustrates temporal consistency of native-action control during a long interaction.</p></div>
+          </article>
+          <article class="rollout-card portrait">
+            <a href="./assets/images/rollout-craft-dispenser.webp" target="_blank">
+              <img src="./assets/images/rollout-craft-dispenser.webp" width="1800" height="1290" loading="lazy" alt="Minecraft crafting rollout in which GameWAM makes an intermediate placement error, observes the resulting GUI state, adjusts the grid, and completes the dispenser.">
+            </a>
+            <div><span>Minecraft · Representative rollout</span><h3>Create a dispenser</h3><p>The initial sequence includes an intermediate placement error that leaves the crafting grid incorrect. After the resulting GUI state is observed, subsequent actions modify the placement and construct the valid recipe. The rollout illustrates recovery through repeated closed-loop observation and replanning, not a perfectly correct open-loop sequence.</p></div>
+          </article>
+          <article class="rollout-card portrait">
+            <a href="./assets/images/rollout-vizdoom-battle1.webp" target="_blank">
+              <img src="./assets/images/rollout-vizdoom-battle1.webp" width="1800" height="986" loading="lazy" alt="ViZDoom Battle 1 rollout showing navigation, reactions to newly visible enemies, view adjustment, and repeated engagement.">
+            </a>
+            <div><span>ViZDoom · Representative rollout 01</span><h3>Battle 1</h3><p>The rollout alternates between navigation and combat as enemies enter the field of view. GameWAM changes orientation to bring nearby threats into the firing direction, engages them, and continues moving through the environment. Movement, target acquisition, and firing are repeatedly recomputed from newly realized observations.</p></div>
+          </article>
+          <article class="rollout-card portrait">
+            <a href="./assets/images/rollout-vizdoom-battle2.webp" target="_blank">
+              <img src="./assets/images/rollout-vizdoom-battle2.webp" width="1800" height="986" loading="lazy" alt="ViZDoom Battle 2 rollout in which GameWAM navigates and fights through the maze, collects a health pack after taking damage, and resumes combat.">
+            </a>
+            <div><span>ViZDoom · Representative rollout 02</span><h3>Battle 2</h3><p>Walls and corridors repeatedly change which enemies and resources are visible. After taking damage during combat, GameWAM approaches and collects a health pack, recovers health, then continues through the maze and resumes combat. Subsequent actions are conditioned on the realized change in agent state.</p></div>
+          </article>
+          <article class="rollout-card portrait">
+            <a href="./assets/images/rollout-vizdoom-defend-center.webp" target="_blank">
+              <img src="./assets/images/rollout-vizdoom-defend-center.webp" width="1800" height="986" loading="lazy" alt="ViZDoom Defend the Center rollout showing repeated orientation changes and engagement of threats approaching from different directions.">
+            </a>
+            <div><span>ViZDoom · Representative rollout 03</span><h3>Defend the center</h3><p>Threats are not restricted to one frontal direction. From the central position, GameWAM repeatedly changes view orientation, redirects its aim between different parts of the arena, and fires as enemies enter actionable views. The example emphasizes target switching rather than pursuit through the environment.</p></div>
+          </article>
+          <article class="rollout-card portrait">
+            <a href="./assets/images/rollout-vizdoom-defend-line.webp" target="_blank">
+              <img src="./assets/images/rollout-vizdoom-defend-line.webp" width="1800" height="986" loading="lazy" alt="ViZDoom Defend the Line rollout showing repeated acquisition of approaching enemies, horizontal aim adjustment, and firing as the active threat changes.">
+            </a>
+            <div><span>ViZDoom · Representative rollout 04</span><h3>Defend the line</h3><p>Enemies approach from the front under constrained movement. GameWAM repeatedly acquires approaching enemies, adjusts horizontal aim, and fires as the active threat changes. The sequence illustrates reactive closed-loop control under the frontal-defense objective.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section lasi" id="lasi">
+      <div class="shell">
+        <div class="lasi-intro">
+          <div>
+            <span class="section-index">05 — Analysis</span>
+            <h2>Low-Frequency Action<br>Source <em>Imprinting.</em></h2>
+          </div>
+          <div>
+            <p class="lasi-definition">Under fixed conditioning, interventions on low-temporal-frequency action-source components causally change corresponding coarse generated camera-motion components.</p>
+            <p>When one sampled source is reused across replanning steps, its low-frequency bias can accumulate into persistent turning. Resampling at each step largely removes the episode-level failure pattern, but not the underlying source sensitivity.</p>
+          </div>
+        </div>
+
+        <div class="lasi-stats">
+          <div><strong>0.890</strong><span>Yaw-DCT0 within-condition<br>source/action correlation</span></div>
+          <div><strong>94.8%</strong><span>Yaw-DCT0 donor-follow rate<br>after replacing modes 0–2</span></div>
+          <div><strong>99.25%</strong><span>Yaw-DCT0 variance removed<br>after zeroing modes 0–2</span></div>
+        </div>
+
+        <div class="lasi-figures">
+          <figure class="paper-figure">
+            <img src="./assets/images/lasi-causal-evidence.webp" width="2200" height="699" loading="lazy" alt="Controlled LASI experiments measuring fixed-condition association, low-frequency source replacement, and source zeroing.">
+            <figcaption><strong>Controlled evidence.</strong> Within-condition association, donor replacement, and zeroing quantify the effect of sampled low-frequency source components on generated camera-action coefficients.</figcaption>
+          </figure>
+          <figure class="paper-figure">
+            <img src="./assets/images/lasi-frequency-amplification.webp" width="2200" height="640" loading="lazy" alt="LASI frequency-response and amplification analyses comparing low- and high-frequency source effects.">
+            <figcaption><strong>Frequency selectivity and amplification.</strong> Across the tested perturbations, low-frequency modes produce larger responses, and source gain increases along the iterative model path.</figcaption>
+          </figure>
+          <figure class="paper-figure">
+            <img src="./assets/images/lasi-closed-loop.webp" width="2200" height="844" loading="lazy" alt="Closed-loop LASI analysis measuring alignment between action-source and executed-action low-frequency DCT coefficients across replanning steps.">
+            <figcaption><strong>Closed-loop alignment.</strong> Episode-adjusted source/action association is strongest at the correct source–replanning alignment across the analyzed trajectories.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="shell closing-inner">
+        <span class="closing-mark" aria-hidden="true">◇</span>
+        <p>World modeling meets<br><em>native action.</em></p>
+        <a class="button button-primary" href="https://github.com/yunncheng/GameWAM" target="_blank" rel="noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <div><strong>GameWAM</strong><span>A World Action Model for Video Games</span></div>
+      <p>Research project page · 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
