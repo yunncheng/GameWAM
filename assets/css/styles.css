@@ -164,12 +164,16 @@ sup { font-size: .62em; color: var(--cyan); }
 .comparison-heading { margin-bottom: 20px; }
 .comparison-heading h3 { margin: 7px 0 0; font-size: 30px; letter-spacing: -.035em; }
 .mcu-table-wrap { position: relative; }
-.mcu-table { min-width: 1500px; font-size: 12px; }
-.mcu-table th, .mcu-table td { padding: 11px 13px; text-align: center; }
-.mcu-table th:first-child { position: sticky; left: 0; z-index: 2; min-width: 126px; text-align: left; background: var(--white); box-shadow: 1px 0 0 var(--line); }
-.mcu-table thead th:first-child { z-index: 4; }
+.mcu-table { min-width: 1800px; font-size: 14px; }
+.mcu-table caption { font-size: 13px; }
+.mcu-table thead th { font-size: 13px; }
+.mcu-table th, .mcu-table td { padding: 13px 16px; text-align: center; vertical-align: middle; }
+.mcu-table thead th, .mcu-table tbody td { text-align: center; }
+.mcu-table thead tr:first-child > th:first-child,
+.mcu-table tbody > tr > th:first-child { position: sticky; left: 0; z-index: 2; min-width: 150px; text-align: left; background: var(--white); box-shadow: 1px 0 0 var(--line); }
+.mcu-table thead tr:first-child > th:first-child { z-index: 4; }
 .mcu-table tr.best th:first-child { background: #edf9f7; }
-.mcu-table thead tr:first-child th[colspan] { color: var(--ink); background: #f5f7fb; border-inline: 1px solid var(--line); font-size: 11px; }
+.mcu-table thead tr:first-child th[colspan] { color: var(--ink); background: #f5f7fb; border-inline: 1px solid var(--line); font-size: 13px; }
 .table-note { margin: 11px 3px 0; color: var(--ink-soft); font-size: 11px; }
 .table-notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px 24px; margin: 14px 3px 0; color: var(--ink-soft); font-size: 11px; }
 .table-notes p { margin: 0; }
