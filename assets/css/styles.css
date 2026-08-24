@@ -223,6 +223,7 @@ tbody tr.best { color: #087a73; background: #edf9f7; }
 .lasi-stats span { color: #6d6680; font-size: 11px; line-height: 1.4; text-transform: uppercase; letter-spacing: .08em; }
 .lasi-figures { display: grid; gap: 26px; }
 .lasi-figures .paper-figure { background: var(--white); border-color: #d9d2ec; box-shadow: 0 14px 35px rgba(63,45,102,.08); }
+.lasi-closed-loop-figure { width: min(100%, 820px); justify-self: center; }
 .lasi-figures figcaption { color: var(--ink-soft); }
 .lasi-figures figcaption strong { color: var(--ink); }
 
