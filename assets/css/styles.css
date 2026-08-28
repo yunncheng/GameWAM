@@ -55,6 +55,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav-links { display: flex; align-items: center; gap: 27px; margin-left: auto; color: #aeb8ca; font-size: 13px; font-weight: 600; }
 .nav-links a { transition: color .2s ease; }
 .nav-links a:hover { color: var(--white); }
+.nav-actions { display: flex; align-items: center; gap: 10px; }
 .nav-code { display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border: 1px solid #445169; border-radius: 999px; font-size: 13px; font-weight: 700; }
 .nav-code svg { width: 14px; fill: none; stroke: currentColor; stroke-width: 1.5; }
 .nav-code:hover { color: var(--navy); background: var(--cyan); border-color: var(--cyan); }
@@ -242,7 +243,7 @@ tbody tr.best { color: #087a73; background: #edf9f7; }
 @media (max-width: 900px) {
   :root { --shell: min(100% - 34px, 760px); }
   .nav-links { display: none; }
-  .nav-code { margin-left: auto; }
+  .nav-actions { margin-left: auto; }
   .hero { padding-top: 135px; }
   .split-heading, .lasi-intro { grid-template-columns: 1fr; gap: 24px; }
   .contribution-grid, .metric-grid { grid-template-columns: 1fr; }
