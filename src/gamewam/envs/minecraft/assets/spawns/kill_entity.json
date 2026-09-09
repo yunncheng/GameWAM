@@ -1,0 +1,675 @@
+{
+    "kill_entity:sheep": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:cow": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:pig": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:donkey": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:horse": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:bee": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:fox": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:wolf": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:cat": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+        },
+        "kill_entity:chicken": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+        },
+    "kill_entity:llama": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:spider": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:zombie": {
+        "seeds": [
+        {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": ["/time set night"],
+        "label":["normal"]
+    },
+    "kill_entity:zombie_villager": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": ["/time set night"],
+        "label":["normal"]
+        },
+    "kill_entity:skeleton": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": ["/time set night"],
+    "label":["normal"]
+    },
+    "kill_entity:enderman": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal","the_end"]
+    },
+    "kill_entity:skeleton_horse": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:creeper": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:slime": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:phantom": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:pillager": {
+        "seeds": [
+        {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:ravager": {
+        "seeds": [
+        {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe"],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:evoker": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:ghast": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:vex": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:guardian": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:villager": {
+    "seeds": [
+        {
+        "seed": 1403770728608262707,
+        "position": [-912, 71, 750]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:vindicator": {
+    "seeds": [
+        {
+        "seed": 1403770728608262707,
+        "position": [-912, 71, 750]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:iron_golem": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-912, 71, 750]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:salmon": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-117, 61, 115]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:squid": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-117, 61, 115]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:cod": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [-117, 61, 115]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal","water"]
+        },
+    "kill_entity:tropical_fish": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-117, 61, 115]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:dolphin": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-117, 61, 115]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:pufferfish": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [85, 61, 79]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:turtle": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-117, 61, 115]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:drowned": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [85, 61, 79]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal","water"]
+    },
+    "kill_entity:mooshroom": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [-7140, 64, -2066]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:ocelot": {
+        "seeds": [
+        {
+            "seed": 3595531610718549062,
+            "position": [131, 74, -22]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:parrot": {
+        "seeds": [
+        {
+            "seed": 3595531610718549062,
+            "position": [131, 74, -22]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:polar_bear": {
+        "seeds": [
+        {
+            "seed": 3001859308298079279,
+            "position": [4564, 63,1184 ]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe"],
+        "commands": [],
+        "label":["normal"]
+    },
+    "kill_entity:stray": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [4564, 63,1184 ]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": ["/time set night"],
+    "label":["normal"]
+    },
+    "kill_entity:silverfish": {
+        "seeds": [
+            {
+            "seed": 1403770728608262707,
+            "position": [-533, 40, 210]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+        },
+        
+        "kill_entity:bat": {
+        "seeds": [
+            {
+            "seed": 1403770728608262707,
+            "position": [-533, 40, 210]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+        },
+    
+        "kill_entity:cave_spider": {
+        "seeds": [
+            {
+            "seed": 1403770728608262707,
+            "position": [-533, 40, 210]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe",""],
+        "commands": [],
+        "label":["normal"]
+        },
+    "kill_entity:husk": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [178, 68, -1526]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": ["/time set night"],
+    "label":["normal"]
+    },
+    "kill_entity:rabbit": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [178, 68, -1526]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe",""],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:witch": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [331, 63, 5293]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:wither": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [331, 63, 5293]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["normal"]
+    },
+    "kill_entity:blaze": {
+            "seeds": [
+                {
+                "seed": 3001859308298079279,
+                "position": [31, 64, 61]
+                }
+            ],
+            "tool": ["diamond_sword", "diamond_axe",""],
+            "commands": [],
+            "label":["nether"]
+        },
+    "kill_entity:piglin": {
+        "seeds": [
+        {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+        }
+        ],
+        "tool": ["diamond_sword", "diamond_axe"],
+        "commands": [],
+        "label":["nether"]
+    },
+    "kill_entity:hoglin": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["nether"]
+    },
+    "kill_entity:magma_cube": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["nether"]
+    },
+    "kill_entity:piglin_brute": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["nether"]
+    },
+    "kill_entity:wither_skeleton": {
+    "seeds": [
+        {
+        "seed": 1403770728608262707,
+        "position": [-13, 69, 3]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["nether"]
+    },
+    "kill_entity:strider": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["nether"]
+    },
+    "kill_entity:zombified_piglin": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["nether"]
+    },
+    "kill_entity:endermite": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe"],
+        "commands": ["/time set night"],
+        "label":["the_end"]
+        },
+    "kill_entity:shulker": {
+        "seeds": [
+            {
+            "seed": 3001859308298079279,
+            "position": [31, 64, 61]
+            }
+        ],
+        "tool": ["diamond_sword", "diamond_axe"],
+        "commands": [],
+        "label":["the_end"]
+    },
+    "kill_entity:elder_guardian": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["boss"]
+    },
+    "kill_entity:ender_dragon": {
+    "seeds": [
+        {
+        "seed": 3001859308298079279,
+        "position": [31, 64, 61]
+        }
+    ],
+    "tool": ["diamond_sword", "diamond_axe"],
+    "commands": [],
+    "label":["boss","the_end"]
+    }
+}

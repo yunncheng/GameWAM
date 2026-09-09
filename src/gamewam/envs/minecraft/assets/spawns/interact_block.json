@@ -1,0 +1,275 @@
+{
+    "custom:interact_with_anvil": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "anvil": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_beacon": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "beacon": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_blast_furnace": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "blast_furnace": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_brewingstand": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "brewing_stand": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_campfire": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "campfire": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_cartography_table": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "cartography_table": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_crafting_table": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "crafting_table": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_furnace": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "furnace": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_grindstone": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "grindstone": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_loom": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "loom": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_smithing_table": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "smithing_table": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_smoker": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "smoker": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    },
+    "custom:interact_with_stonecutter": {
+        "seeds": [
+            {
+                "seed": 3001859308298079279,
+                "position": [
+                    28,
+                    63,
+                    47
+                ]
+            }
+        ],
+        "block": [
+            {
+                "stonecutter": [
+                    0,
+                    0,
+                    5
+                ]
+            }
+        ]
+    }
+}

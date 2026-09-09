@@ -1,0 +1,76 @@
+diff --git a/src/client/craftium.h b/src/client/craftium.h
+index b8de196..40333d7 100644
+--- a/src/client/craftium.h
++++ b/src/client/craftium.h
+@@ -39,6 +39,8 @@ inline int frameskip = 0;
+ 
+ */
+ inline bool virtual_key_presses[KeyType::INTERNAL_ENUM_COUNT];
++inline bool virtual_key_pressed[KeyType::INTERNAL_ENUM_COUNT];
++inline bool previous_virtual_place = false;
+ inline int virtual_mouse_x = 0;
+ inline int virtual_mouse_y = 0;
+ 
+diff --git a/src/client/client.cpp b/src/client/client.cpp
+index c3a15d8..d36d53d 100644
+--- a/src/client/client.cpp
++++ b/src/client/client.cpp
+@@ -213,5 +213,6 @@ void Client::pyConnStep(LocalPlayer *myplayer, float dtime){
+ 	/* Clear all virtual key presses except the movement ones (WASD) and dig (L click) */
+ 	for (int i=0; i<KeyType::INTERNAL_ENUM_COUNT; i++) {
++		virtual_key_pressed[i] = false;
+ 		if (i != KeyType::FORWARD
+ 				&& i != KeyType::BACKWARD
+ 				&& i != KeyType::LEFT
+@@ -359,6 +360,9 @@ void Client::pyConnStep(LocalPlayer *myplayer, float dtime){
+     /* Receive a buffer of bytes with the actions to take */
+     n_recv = recv(py_sockfd, &actions, sizeof(actions), 0);
+ 
++    virtual_key_pressed[KeyType::PLACE] = actions[9] && !previous_virtual_place;
++    previous_virtual_place = actions[9];
++
+     virtual_key_presses[KeyType::FORWARD] = actions[0];
+     virtual_key_presses[KeyType::BACKWARD] = actions[1];
+     virtual_key_presses[KeyType::LEFT] = actions[2];
+diff --git a/src/client/inputhandler.h b/src/client/inputhandler.h
+index 5f2316c..e7c96bc 100644
+--- a/src/client/inputhandler.h
++++ b/src/client/inputhandler.h
+@@ -302,7 +302,8 @@ public:
+ 	}
+ 	virtual bool wasKeyPressed(GameKeyType k)
+ 	{
+-		return m_receiver->WasKeyPressed(keycache.key[k]) || joystick.wasKeyPressed(k);
++		return m_receiver->WasKeyPressed(keycache.key[k]) || joystick.wasKeyPressed(k) ||
++				virtual_key_pressed[k];
+ 	}
+ 	virtual bool wasKeyReleased(GameKeyType k)
+ 	{
+diff --git a/setup.py b/setup.py
+index 6c33760..246acdd 100644
+--- a/setup.py
++++ b/setup.py
+@@ -15,16 +15,21 @@ def build_minetest():
+ 
+ def create_data_dir():
+     data_dir = "craftium/"
++    marker_path = os.path.join(data_dir, "GAMEWAM_VIRTUAL_PLACE_EDGE")
++    with open(marker_path, "w") as marker:
++        marker.write("craftium-v0.0.1-gamewam-place-edge-v1\n")
+ 
+     include = ["bin", "builtin", "fonts", "locale",
+                "textures", "client", "craftium-envs"]
+ 
+     with open("MANIFEST.in", "w") as manifest:
++        manifest.write(f"include {marker_path}\n")
+         for path in include:
+             tgt = os.path.join(data_dir, path)
+             manifest.write(f"recursive-include {tgt} *\n")
+-            if not os.path.exists(tgt):
+-                shutil.copytree(path, tgt)
++            if os.path.exists(tgt):
++                shutil.rmtree(tgt)
++            shutil.copytree(path, tgt)
+ 
+ def setup_irr_shaders_dir():
+     # remove the original link

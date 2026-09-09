@@ -1,0 +1,91 @@
+_target_: gamewam.runtime.create_gamewam
+model_id: Wan-AI/Wan2.2-TI2V-5B
+tokenizer_model_id: Wan-AI/Wan2.1-T2V-1.3B
+tokenizer_max_len: 128
+load_text_encoder: false
+proprio_dim: ${data.common.processor.proprio_output_dim}
+proprio_encoder_type: ${data.common.processor.proprio_encoder_type}
+proprio_field_valid_dim: ${data.common.shape_meta.state.0.raw_shape}
+redirect_common_files: true
+mot_checkpoint_mixed_attn: true
+video_action_attention_mode: condition_only # condition_only, joint_bidirectional
+action_dit_pretrained_path: checkpoints/ActionDiT_linear_interp_Wan22_alphascale_1024hdim.pt
+skip_dit_load_from_pretrain: false
+
+video_dit_config:
+  has_image_input: false
+  patch_size: [1, 2, 2]
+  in_dim: 48
+  hidden_dim: 3072
+  ffn_dim: 14336
+  freq_dim: 256
+  text_dim: 4096
+  out_dim: 48
+  num_heads: 24
+  attn_head_dim: 128
+  num_layers: 30
+  eps: 1.0e-06
+  seperated_timestep: true
+  require_clip_embedding: false
+  require_vae_embedding: false
+  fuse_vae_embedding_in_latents: true
+  use_gradient_checkpointing: ${model.mot_checkpoint_mixed_attn}
+  video_attention_mask_mode: "ar_teacher_forcing"
+  num_obs_frames: ${data.common.num_obs_frames}
+  action_conditioned: true
+  action_dim: ${data.common.processor.action_output_dim}
+  action_group_causal_mask_mode: "group_diagonal"
+prediction_horizon: ${data.common.prediction_horizon}
+execution_horizon: ${data.common.execution_horizon}
+
+action_dit_config:
+  action_dim: ${data.common.processor.action_output_dim}
+  hidden_dim: 1024
+  ffn_dim: 4096
+  num_heads: 24
+  attn_head_dim: 128
+  num_layers: 30
+  text_dim: 4096
+  freq_dim: 256
+  eps: 1.0e-06
+  use_gradient_checkpointing: ${model.mot_checkpoint_mixed_attn}
+  dim_is_continuous: ${data.common.processor.dim_is_continuous}
+  gui_label_dim_index: ${data.common.processor.gui_label_dim_index}
+
+video_scheduler:
+  train_shift: 5.0
+  infer_shift: 5.0
+  num_train_timesteps: 1000
+
+action_scheduler:
+  train_shift: 5.0
+  infer_shift: 5.0
+  num_train_timesteps: 1000
+
+loss:
+  lambda_video: 1.0
+  lambda_action: 1.0
+
+coupled_video_action_timesteps: false
+action_noise_share_across_blocks: false
+
+text_condition_dropout_prob: 0.0
+
+event_occurrence_aux_enabled: false
+event_occurrence_aux_loss_weight: 1.0
+
+action_head:
+  gui_head_enabled: true
+  route_aware_action_normalization: ${data.common.processor.route_aware_action_normalization}
+  lambda_continuous: 1.0
+  lambda_discrete: 1.0
+  lambda_gui_route: 0.05
+
+history_config: ${data.common.history}
+
+image_size: ["${data.common.shape_meta.images.0.shape.1}", "${data.common.shape_meta.images.0.shape.2}"]
+
+num_frames: ${data.common.num_frames}
+num_obs_frames: ${data.common.num_obs_frames}
+frame_stride: ${data.common.frame_stride}
+action_video_freq_ratio: ${data.common.action_video_freq_ratio}

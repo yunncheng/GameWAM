@@ -1,0 +1,24 @@
+shape_meta:
+  images:
+    - raw_shape: [3, 360, 640]
+
+dataset_dirs:
+  - /path/to/datasets/VPT_Contractor_Lerobot/6xx
+  - /path/to/datasets/VPT_Contractor_Lerobot/7xx
+  - /path/to/datasets/VPT_Contractor_Lerobot/8xx
+  - /path/to/datasets/VPT_Contractor_Lerobot/9xx
+  - /path/to/datasets/VPT_Contractor_Lerobot/10xx
+
+text_embedding_cache_dir: /path/to/cache/text_embeds_cache/mc_vpt_contractor
+vae_latent_cache_dir: /path/to/cache/vae_latent_cache/mc_vpt_contractor
+
+sample_interval: 32
+event_anchor_enabled: false
+event_anchor_radius: null
+sample_interval_event: null
+sample_interval_normal: null
+
+fine_task_resample_enabled: false
+fine_task_resample_mix_original: null
+fine_task_resample_gamma: null
+fine_task_resample_max_expected_repeat: null

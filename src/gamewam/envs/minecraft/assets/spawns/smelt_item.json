@@ -1,0 +1,1172 @@
+{
+    "smelt_item:green_dye": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "cactus"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "green_dye"
+    },
+    "smelt_item:popped_chorus_fruit": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "chorus_fruit"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "popped_chorus_fruit"
+    },
+    "smelt_item:white_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "white_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "white_glazed_terracotta"
+    },
+    "smelt_item:smooth_red_sandstone": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "red_sandstone"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "smooth_red_sandstone"
+    },
+    "smelt_item:smooth_quartz": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "quartz_block"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "smooth_quartz"
+    },
+    "smelt_item:brown_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "brown_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "brown_glazed_terracotta"
+    },
+    "smelt_item:iron_ingot": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "iron_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "iron_ingot"
+    },
+    "smelt_item:redstone": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "redstone_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "redstone"
+    },
+    "smelt_item:cooked_cod": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "cod"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cooked_cod"
+    },
+    "smelt_item:brick": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "clay_ball"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "brick"
+    },
+    "smelt_item:gray_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "gray_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "gray_glazed_terracotta"
+    },
+    "smelt_item:cooked_salmon": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "salmon"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cooked_salmon"
+    },
+    "smelt_item:magenta_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "magenta_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "magenta_glazed_terracotta"
+    },
+    "smelt_item:quartz": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "nether_quartz_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "quartz"
+    },
+    "smelt_item:cracked_polished_blackstone_bricks": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "polished_blackstone_bricks"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cracked_polished_blackstone_bricks"
+    },
+    "smelt_item:lime_dye": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "sea_pickle"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "lime_dye"
+    },
+    "smelt_item:sponge": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "wet_sponge"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "sponge"
+    },
+    "smelt_item:cooked_chicken": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "chicken"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cooked_chicken"
+    },
+    "smelt_item:charcoal": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "birch_wood"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "charcoal"
+    },
+    "smelt_item:pink_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "pink_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "pink_glazed_terracotta"
+    },
+    "smelt_item:cooked_rabbit": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "rabbit"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cooked_rabbit"
+    },
+    "smelt_item:baked_potato": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "potato"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "baked_potato"
+    },
+    "smelt_item:light_gray_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "light_gray_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "light_gray_glazed_terracotta"
+    },
+    "smelt_item:dried_kelp": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "kelp"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "dried_kelp"
+    },
+    "smelt_item:diamond": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "diamond_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "diamond"
+    },
+    "smelt_item:nether_brick": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "netherrack"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "nether_brick"
+    },
+    "smelt_item:cyan_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "cyan_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cyan_glazed_terracotta"
+    },
+    "smelt_item:gold_ingot": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "nether_gold_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "gold_ingot"
+    },
+    "smelt_item:terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "clay"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "terracotta"
+    },
+    "smelt_item:green_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "green_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "green_glazed_terracotta"
+    },
+    "smelt_item:cooked_beef": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "beef"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cooked_beef"
+    },
+    "smelt_item:orange_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "orange_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "orange_glazed_terracotta"
+    },
+    "smelt_item:purple_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "purple_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "purple_glazed_terracotta"
+    },
+    "smelt_item:smooth_stone": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "stone"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "smooth_stone"
+    },
+    "smelt_item:netherite_scrap": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "ancient_debris"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "netherite_scrap"
+    },
+    "smelt_item:coal": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "coal_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "coal"
+    },
+    "smelt_item:cracked_nether_bricks": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "nether_bricks"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cracked_nether_bricks"
+    },
+    "smelt_item:light_blue_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "light_blue_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "light_blue_glazed_terracotta"
+    },
+    "smelt_item:smooth_sandstone": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "sandstone"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "smooth_sandstone"
+    },
+    "smelt_item:gold_nugget": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "golden_sword"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "gold_nugget"
+    },
+    "smelt_item:iron_nugget": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "iron_sword"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "iron_nugget"
+    },
+    "smelt_item:lime_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "lime_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "lime_glazed_terracotta"
+    },
+    "smelt_item:lapis_lazuli": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "lapis_ore"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "lapis_lazuli"
+    },
+    "smelt_item:cooked_porkchop": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "porkchop"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "cooked_porkchop"
+    },
+    "smelt_item:blue_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "need_furnace": true,
+        "init_inventory": [
+            {
+                "quantity": ">=1",
+                "slot": "random",
+                "type": "blue_terracotta"
+            },
+            {
+                "quantity": ">3",
+                "slot": "random",
+                "type": "coal"
+            }
+        ],
+        "goal": "blue_glazed_terracotta"
+    }
+}

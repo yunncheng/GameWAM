@@ -1,0 +1,13 @@
+diff --git a/setup.py b/setup.py
+--- a/setup.py
++++ b/setup.py
+@@ -29,7 +29,8 @@ def create_data_dir():
+             manifest.write(f"recursive-include {tgt} *\n")
+             if os.path.exists(tgt):
+                 shutil.rmtree(tgt)
+-            shutil.copytree(path, tgt)
++            if os.path.exists(path):
++                shutil.copytree(path, tgt)
+ 
+ def setup_irr_shaders_dir():
+     # remove the original link

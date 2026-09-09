@@ -1,0 +1,8 @@
+# @package _global_
+
+# VoxeLibre zero-shot evaluation reuses the Minecraft task configuration:
+# the shared model, processor, and action-decoding settings.
+defaults:
+  - sim_minecraft
+  - override /task: mc_uncond_ar_224_4e-5.yaml
+  - _self_

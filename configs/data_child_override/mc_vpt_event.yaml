@@ -1,0 +1,24 @@
+shape_meta:
+  images:
+    - raw_shape: [3, 360, 640]
+
+dataset_dirs:
+  - /path/to/datasets/VPT_Event_Lerobot/6xx
+  - /path/to/datasets/VPT_Event_Lerobot/7xx
+  - /path/to/datasets/VPT_Event_Lerobot/8xx
+  - /path/to/datasets/VPT_Event_Lerobot/9xx
+  - /path/to/datasets/VPT_Event_Lerobot/10xx
+
+text_embedding_cache_dir: /path/to/cache/text_embeds_cache/mc_vpt_event
+vae_latent_cache_dir: /path/to/cache/vae_latent_cache/mc_vpt_event
+
+sample_interval: 8
+event_anchor_enabled: true
+event_anchor_radius: 8
+sample_interval_event: 2
+sample_interval_normal: 16
+
+fine_task_resample_enabled: true
+fine_task_resample_mix_original: 0.1
+fine_task_resample_gamma: 0.25
+fine_task_resample_max_expected_repeat: 20.0

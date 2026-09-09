@@ -1,0 +1,2451 @@
+{
+    "mine_block:oak_log": {
+        "seeds": [
+            {
+                "seed": 100,
+                "position": [
+                    -216,
+                    72,
+                    202
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:birch_log": {
+        "seeds": [
+            {
+                "seed": 100,
+                "position": [
+                    -216,
+                    72,
+                    202
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:iron_ore": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    194,
+                    61,
+                    897
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:coal_ore": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    175,
+                    77,
+                    860
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:obsidian": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:crying_obsidian": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:gold_block": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:diorite": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    217,
+                    71,
+                    959
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:andesite": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    217,
+                    71,
+                    959
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:cobblestone": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    217,
+                    71,
+                    959
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe",
+            ""
+        ],
+        "place": {
+            "block": "cobblestone",
+            "support": null
+        }
+    },
+    "mine_block:granite": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    210,
+                    73,
+                    965
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:netherrack": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    340,
+                    67,
+                    1000
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:magma_block": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:mossy_stone_brick_stairs": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:mossy_stone_bricks": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:stone_slab": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    345,
+                    70,
+                    989
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:stone_brick_stairs": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    341,
+                    68,
+                    995
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:cracked_stone_bricks": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    346,
+                    69,
+                    999
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:cornflower": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    361,
+                    68,
+                    771
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:azure_bluet": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    347,
+                    67,
+                    802
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:dandelion": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    373,
+                    70,
+                    763
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:poppy": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    399,
+                    69,
+                    729
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:orange_tulip": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    506,
+                    70,
+                    781
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:pink_tulip": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    455,
+                    64,
+                    928
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:red_tulip": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    455,
+                    64,
+                    928
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:allium": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    773,
+                    80,
+                    876
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:white_tulip": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    786,
+                    73,
+                    893
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:rose_bush": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    419,
+                    73,
+                    887
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:peony": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    419,
+                    73,
+                    887
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:grass": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    390,
+                    69,
+                    745
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:tall_grass": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    390,
+                    69,
+                    745
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:sugar_cane": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    544,
+                    63,
+                    899
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:spruce_log": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    363,
+                    70,
+                    1019
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "diamond_axe",
+            ""
+        ]
+    },
+    "mine_block:chest": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    341,
+                    68,
+                    997
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:dirt": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    398,
+                    80,
+                    1122
+                ]
+            }
+        ],
+        "tool": [
+            "iron_shovel",
+            "diamond_shovel",
+            "air"
+        ]
+    },
+    "mine_block:gravel": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    397,
+                    80,
+                    1118
+                ]
+            }
+        ],
+        "tool": [
+            "iron_shovel",
+            "diamond_shovel"
+        ]
+    },
+    "mine_block:stripped_oak_wood": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    883,
+                    69,
+                    609
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "diamond_axe"
+        ]
+    },
+    "mine_block:torch": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    867,
+                    67,
+                    548
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:wall_torch": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    883,
+                    69,
+                    609
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:oak_door": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    883,
+                    69,
+                    614
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "diamond_axe",
+            ""
+        ]
+    },
+    "mine_block:composter": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    893,
+                    72,
+                    632
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:white_wool": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    873,
+                    68,
+                    554
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:yellow_wool": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    873,
+                    68,
+                    554
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:white_stained_glass_pane": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    859,
+                    70,
+                    561
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:yellow_stained_glass_pane": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    859,
+                    70,
+                    561
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:ladder": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    859,
+                    70,
+                    561
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:brewing_stand": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    859,
+                    70,
+                    561
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:yellow_bed": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    15863,
+                    68,
+                    -21674
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:smooth_stone": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    891,
+                    68,
+                    536
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:cauldron": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    891,
+                    68,
+                    536
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:oak_trapdoor": {
+        "seeds": [
+            {
+                "seed": 2025,
+                "position": [
+                    884,
+                    68,
+                    601
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:white_bed": {
+        "seeds": [
+            {
+                "seed": 400,
+                "position": [
+                    -2850,
+                    72,
+                    -7188
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:stone": {
+        "seeds": [
+            {
+                "seed": 27,
+                "position": [
+                    133,
+                    61,
+                    2
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "stone_pickaxe"
+        ]
+    },
+    "mine_block:pumpkin": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -2272,
+                    77,
+                    -414
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:sunflower": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -142,
+                    64,
+                    253
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:furnace": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    -1838,
+                    72,
+                    30501
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:cocoa": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    154,
+                    76,
+                    100
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:bamboo": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    170,
+                    65,
+                    69
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:gold_ore": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    17950,
+                    11,
+                    7506
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:glass": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2554,
+                    74,
+                    1837
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ],
+        "place": {
+            "block": "glass",
+            "support": null
+        }
+    },
+    "mine_block:diamond_ore": {
+        "seeds": [
+            {
+                "seed": 1,
+                "position": [
+                    17950,
+                    11,
+                    7506
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "diamond_pickaxe"
+        ]
+    },
+    "mine_block:yellow_stained_glass": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2880,
+                    75,
+                    1336
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ],
+        "place": {
+            "block": "yellow_stained_glass",
+            "support": null
+        }
+    },
+    "mine_block:orange_bed": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2571,
+                    76,
+                    1857
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:yellow_terracotta": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2570,
+                    73,
+                    1833
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:lily_pad": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    -255,
+                    63,
+                    -678
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:melon": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2562,
+                    78,
+                    1863
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:acacia_log": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    -117,
+                    69,
+                    619
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:spruce_leaves": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    -139,
+                    78,
+                    -797
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:stripped_oak_log": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2873,
+                    68,
+                    1395
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:acacia_stairs": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2528,
+                    77,
+                    1830
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:bee_nest": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    754,
+                    75,
+                    -2031
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:oak_stairs": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2871,
+                    70,
+                    1402
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:bricks": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2876,
+                    71,
+                    1415
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:blast_furnace": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2876,
+                    71,
+                    1415
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:acacia_door": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2530,
+                    76,
+                    1798
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:white_terracotta": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2863,
+                    70,
+                    1409
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:blue_orchid": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    -217,
+                    73,
+                    -1327
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:acacia_pressure_plate": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2530,
+                    76,
+                    1798
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:yellow_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 1997,
+                "position": [
+                    2530,
+                    76,
+                    1798
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:carrots": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -381.3,
+                    71,
+                    1106.9
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:potatoes": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -374.6,
+                    71,
+                    1084.4
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:acacia_leaves": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -498.3,
+                    69,
+                    2210.9
+                ]
+            }
+        ],
+        "tool": [
+            "shears",
+            "air"
+        ]
+    },
+    "mine_block:lily_of_the_valley": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -345.4,
+                    72,
+                    2158.8
+                ]
+            }
+        ],
+        "tool": [
+            "shears"
+        ]
+    },
+    "mine_block:vine": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -172.4,
+                    77,
+                    2673
+                ]
+            }
+        ],
+        "tool": [
+            "shears",
+            "air"
+        ],
+        "place": {
+            "block": "vine",
+            "support": "stone"
+        }
+    },
+    "mine_block:redstone_torch": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -4268,
+                    66,
+                    -2043
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:prismarine_bricks": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -3837,
+                    56,
+                    -3567
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe"
+        ],
+        "place": {
+            "block": "prismarine_bricks",
+            "support": null
+        }
+    },
+    "mine_block:grass_block": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -4573,
+                    70,
+                    -5060
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_shovel",
+            ""
+        ]
+    },
+    "mine_block:sand": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -4638,
+                    64,
+                    -5148
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_shovel",
+            "air"
+        ]
+    },
+    "mine_block:oxeye_daisy": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -5130,
+                    64,
+                    -5474
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:acacia_slab": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    101,
+                    68,
+                    3840
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe"
+        ]
+    },
+    "mine_block:white_carpet": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -4777,
+                    64,
+                    -1930
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:smoker": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -407,
+                    73,
+                    1179
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe"
+        ]
+    },
+    "mine_block:grindstone": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -6090.9,
+                    63.5,
+                    -6077.8
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe"
+        ],
+        "place": {
+            "block": "grindstone",
+            "support": "stone"
+        }
+    },
+    "mine_block:stone_brick_slab": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -6274.6,
+                    67.0,
+                    -6033.8
+                ]
+            }
+        ],
+        "tool": [
+            "stone_pickaxe"
+        ],
+        "place": {
+            "block": "stone_brick_slab",
+            "support": null
+        }
+    },
+    "mine_block:purple_bed": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    352.2,
+                    81,
+                    1125.7
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:sandstone_slab": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -664,
+                    65,
+                    3168.5
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_pickaxe"
+        ]
+    },
+    "mine_block:green_bed": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -5544,
+                    64,
+                    -2397
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:pink_carpet": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    15906,
+                    73,
+                    -21497.3
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:red_carpet": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    15911,
+                    73,
+                    -21497.8
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:oak_slab": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    15863,
+                    67,
+                    -21680
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:dark_oak_slab": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -911,
+                    69,
+                    3652
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:dark_oak_stairs": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -921.8,
+                    69,
+                    3657
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:sandstone": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -661,
+                    60,
+                    3185.7
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_shovel"
+        ]
+    },
+    "mine_block:farmland": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    -655,
+                    65,
+                    3139.5
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_shovel"
+        ]
+    },
+    "mine_block:fern": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    76.5,
+                    74,
+                    2689
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:large_fern": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    677,
+                    63,
+                    2184
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe"
+        ]
+    },
+    "mine_block:iron_bars": {
+        "seeds": [
+            {
+                "seed": 7972459931808049474,
+                "position": [
+                    8962,
+                    52,
+                    6179.5
+                ]
+            }
+        ],
+        "tool": [
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:cut_sandstone": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -280,
+                    72,
+                    -25.577
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ],
+        "place": {
+            "block": "cut_sandstone",
+            "support": null
+        }
+    },
+    "mine_block:cobweb": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    27,
+                    25,
+                    -106.39
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:terracotta": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -459,
+                    67,
+                    -373.338
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:dark_oak_leaves": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -613,
+                    70,
+                    -1137
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:birch_leaves": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -565,
+                    66,
+                    -1164
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:rail": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    1,
+                    23,
+                    -63.819
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:kelp": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -172,
+                    49,
+                    97.353
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ],
+        "place": {
+            "block": "kelp",
+            "support": "stone"
+        }
+    },
+    "mine_block:lilac": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -600.5,
+                    66,
+                    -1180
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ],
+        "place": {
+            "block": "lilac",
+            "support": null
+        }
+    },
+    "mine_block:clay": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -462,
+                    74,
+                    -333
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:mushroom_stem": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -606,
+                    68,
+                    -1135
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:redstone_ore": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -13.547,
+                    15,
+                    -98.368
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:dead_bush": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -120,
+                    70,
+                    -0.963
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:dark_oak_log": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -613,
+                    70,
+                    -1137
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:hay_block": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -453,
+                    65,
+                    -381
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:sea_pickle": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -459,
+                    67,
+                    -373.338
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:oak_fence": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    1.56,
+                    23,
+                    -98.407
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:orange_terracotta": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -364,
+                    65,
+                    -333.531
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:wheat": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -458.75,
+                    97,
+                    -344
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ],
+        "place": {
+            "block": "wheat",
+            "support": "farmland"
+        }
+    },
+    "mine_block:jungle_door": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -454,
+                    67,
+                    -373
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:red_mushroom_block": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -606,
+                    68,
+                    -1135
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:white_glazed_terracotta": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -462,
+                    74,
+                    -333
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:stonecutter": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -462,
+                    74,
+                    -333
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:bell": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -450,
+                    65,
+                    -385
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:lime_bed": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -459,
+                    67,
+                    -373.406
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:cactus": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -116,
+                    71,
+                    17.061
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            ""
+        ]
+    },
+    "mine_block:chiseled_sandstone": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -356.3,
+                    53,
+                    -340.3
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:flower_pot": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -450,
+                    71,
+                    -360
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ],
+        "place": {
+            "block": "flower_pot",
+            "support": "stone"
+        }
+    },
+    "mine_block:stone_pressure_plate": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -356.3,
+                    53,
+                    -340.3
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:light_blue_terracotta": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -357,
+                    65,
+                    -340
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ],
+        "place": {
+            "block": "light_blue_terracotta",
+            "support": null
+        }
+    },
+    "mine_block:lime_terracotta": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -462,
+                    74,
+                    -333
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:sandstone_stairs": {
+        "seeds": [
+            {
+                "seed": 114514,
+                "position": [
+                    -459,
+                    67,
+                    -373.338
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe"
+        ]
+    },
+    "mine_block:oak_leaves": {
+        "seeds": [
+            {
+                "seed": 100,
+                "position": [
+                    -216,
+                    72,
+                    202
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "air"
+        ]
+    },
+    "mine_block:snow": {
+        "seeds": [
+            {
+                "seed": 1404809164,
+                "position": [
+                    2,
+                    63,
+                    60
+                ]
+            }
+        ],
+        "tool": [
+            "stone_shovel",
+            "air"
+        ]
+    },
+    "mine_block:crafting_table": {
+        "seeds": [
+            {
+                "seed": 1404809164,
+                "position": [
+                    212.104,
+                    73.0625,
+                    228.078
+                ]
+            }
+        ],
+        "tool": [
+            "wooden_axe",
+            ""
+        ]
+    },
+    "mine_block:potted_cactus": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -2976,
+                    71,
+                    -471
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:cyan_bed": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -2938,
+                    70,
+                    -479
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:potted_dead_bush": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -2955,
+                    72,
+                    -470
+                ]
+            }
+        ],
+        "tool": [
+            "iron_pickaxe",
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:spruce_stairs": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1962,
+                    67,
+                    -1233
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:blue_bed": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1966.5,
+                    70,
+                    -1238
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:spruce_pressure_plate": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1966.5,
+                    70,
+                    -1238
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            "air"
+        ]
+    },
+    "mine_block:spruce_fence": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1966.5,
+                    70,
+                    -1238
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:spruce_door": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1966.5,
+                    70,
+                    -1238
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:spruce_trapdoor": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1957,
+                    64,
+                    -1214
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            ""
+        ]
+    },
+    "mine_block:campfire": {
+        "seeds": [
+            {
+                "seed": 2024,
+                "position": [
+                    -1942,
+                    64,
+                    -1178
+                ]
+            }
+        ],
+        "tool": [
+            "stone_axe",
+            "iron_axe",
+            ""
+        ]
+    }
+}
